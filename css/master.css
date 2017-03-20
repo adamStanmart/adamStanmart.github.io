@@ -1,0 +1,21 @@
+/*
+----------------------------------------------- 
+Master CSS file
+
+Imports styles for modern browsers + IE5/Mac
+----------------------------------------------- */
+
+
+/* 
+Imported Styles
+----------------------------------------------- */
+@import url("sfs.css");
+
+
+/* IE5/Mac Only Styles
+   Uses the IE5/Mac Band Pass Filter:
+   http://stopdesign.com/examples/ie5mac-bpf/
+----------------------------------------------- */
+/*\*//*/
+  @import "ie5mac.css";
+/**/

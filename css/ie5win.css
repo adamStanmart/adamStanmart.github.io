@@ -1,0 +1,21 @@
+body
+{
+	font: x-small/1.6em "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+div {
+	height: 1%;
+}
+
+#navigation 
+{ 
+	width: 760px;
+}
+
+#rightCol 
+{
+	left: 50px;
+	margin-left: 0;
+}
+
+td a:visited	{ } /* fill in for ie 5 pc if required */

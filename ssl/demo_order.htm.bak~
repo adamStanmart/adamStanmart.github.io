@@ -1,0 +1,474 @@
+<html>
+<head><title>Demo Order Form for VS181590 </title></head>
+<body bgcolor="#FFFFFF">
+<p align="center"><font size="5"><u>Simple Secure Order/Registration Form.</u></font></p>
+<p><font size="5">H</font><font size="4">OW </font><font size="5">D</font><font size="4">OES </font><font size="5">I</font><font size="4">T </font><font size="5">W</font><font size="4">ORK?</font></p>
+<ul>
+<li>You will need to edit the form below and insert the VS number which was supplied with your Welcome Letter.</li>
+ <li>When the customer clicks the submit button the contents of the form are stored in an SQL Database. The order can be accessed via the '<strong>Mission Control panel</strong>'.</li>
+ <li>Click Submit below and the details will be stored in the mission control panel.</li>
+</ul>
+
+<form action="../shared_scripts/order.idc" method="POST">
+
+
+<input type="hidden" name="redirect" value="http://esvc000496.wic012u.server-web.com/">
+<input type="hidden" name="vs" value="VS181590"><p>&nbsp;</p>
+
+
+
+ <table border="0">
+ <tr>
+ <td colspan="3"><font size="4" face="Arial"><strong>C</strong></font><font size="3" face="Arial"><strong>USTOMER</strong></font><font
+ size="4" face="Arial"><strong> D</strong></font><font size="3" face="Arial"><strong>ETAILS</strong></font></td>
+ </tr>
+ <tr>
+ <td rowspan="3"><font size="5" face="Arial">1</font></td>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Name</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_title" size="1">
+ <option selected>Mr</option>
+ <option>Miss</option>
+ <option>Mrs</option>
+ <option>Ms</option>
+ <option>Dr</option>
+ <option>Rev</option>
+ </select> <input type="text" size="10"
+ name="order_firstname"><input type="text" size="10"
+ name="order_lasttname"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Company</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_company"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Position</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_position"></strong></font></td>
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan="3"><font size="4" face="Arial"><strong>S</strong></font><font
+ size="3" face="Arial"><strong>HIPPING</strong></font><font
+ size="4" face="Arial"><strong> D</strong></font><font
+ size="3" face="Arial"><strong>ETAILS</strong></font></td>
+ </tr>
+ <tr>
+ <td rowspan="4"><font size="5" face="Arial">2</font></td>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Address</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_address"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8">&nbsp;</td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_address2"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Suburb</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="15" name="order_city"> <input
+ type="text" size="6" name="order_state" value="state">
+ <input type="text" size="5" name="order_postcode"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Country</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_country"></strong></font></td>
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan="3"><font size="4" face="Arial"><strong>C</strong></font><font
+ size="3" face="Arial"><strong>ONTACT</strong></font><font
+ size="4" face="Arial"><strong> D</strong></font><font
+ size="3" face="Arial"><strong>ETAILS</strong></font></td>
+ </tr>
+ <tr>
+ <td rowspan="4"><font size="5" face="Arial">3</font></td>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Work Phone</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="10" name="order_work_phone"> AH
+ Phone<input type="text" size="10"
+ name="order_ah_phone"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Fax</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="10" name="order_fax"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Email</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_email"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>WWW</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_www"
+ value="http://"></strong></font></td>
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ </tr>
+ </table>
+ <table border="0">
+ <tr>
+ <td>&nbsp;</td>
+ <td colspan="4">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan="5"><font size="4" face="Arial"><strong>O</strong></font><font
+ size="3" face="Arial"><strong>RDER </strong></font><font
+ size="4" face="Arial"><strong>D</strong></font><font
+ size="3" face="Arial"><strong>ETAILS</strong></font></td>
+ </tr>
+ <tr>
+ <td rowspan="13"><font size="5" face="Arial">4</font></td>
+ <td align="right" bgcolor="#A5D1D1"><font size="3"
+ face="Arial"><strong>SHIRTS </strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Qty</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Product/Price</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Extra</strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 1</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty1" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product1" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra1" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 2</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty2" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product2" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra2" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 3</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty3" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product3" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra3" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 4</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty4" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product4" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra4" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="3"
+ face="Arial"><strong>JEANS </strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Qty</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Product/Price</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Extra</strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 5</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty5" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product5" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra5" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 6</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty6" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product6" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra6" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 7</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty7" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product7" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra7" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="3"
+ face="Arial"><strong>SHOES </strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Qty</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Product/Price</strong></font></td>
+ <td bgcolor="#008080"><font size="3" face="Arial"><strong>Extra</strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 8</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty8" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product8" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra8" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 9</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty9" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product9" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra9" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#A5D1D1"><font size="2"
+ face="Arial"><strong>Item 10</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_qty10" value="0"></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_product10" size="1">
+ <option>No Purchase</option>
+ <option>Red Shirt</option>
+ <option>Blue Shirt</option>
+ <option>Green Shirt</option>
+ <option>Yellow Shirt</option>
+ <option>Orange Shirt</option>
+ </select></strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_extra10" size="1">
+ <option>NA</option>
+ <option>Small</option>
+ <option>Medium</option>
+ <option>Large</option>
+ <option>Extra Large</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ </tr>
+ </table>
+ <table border="0">
+ <tr>
+ <td colspan="3"><font size="4" face="Arial"><strong>P</strong></font><font
+ size="3" face="Arial"><strong>AYMENT </strong></font><font
+ size="4" face="Arial"><strong>D</strong></font><font
+ size="3" face="Arial"><strong>ETAILS</strong></font></td>
+ </tr>
+ <tr>
+ <td rowspan="5"><font size="5" face="Arial">5</font></td>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Card Type</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><select
+ name="order_card_type" size="1">
+ <option>Select Payment Type</option>
+ <option>Visa</option>
+ <option>Mastercard</option>
+ <option>Bankcard</option>
+ <option>Dinners Club</option>
+ <option>American Express</option>
+ <option>Call me for Card Details</option>
+ <option>I'll Fax Card Details</option>
+ </select></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Card Number</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_card_number"> </strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Expiry</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong>Month
+ <input type="text" size="5"
+ name="order_card_exp_month">/ Year<input type="text"
+ size="5" name="order_card_exp_year"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Name on Card</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="20" name="order_card_name"></strong></font></td>
+ </tr>
+ <tr>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Card ID No</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><input
+ type="text" size="5" name="order_card_amexid">
+ (American Express cards only)</strong></font></td>
+ </tr>
+ <tr>
+ <td colspan="3">&nbsp;</td>
+ </tr>
+ <tr>
+ <td colspan="3"><font size="4" face="Arial"><strong>C</strong></font><font
+ size="3" face="Arial"><strong>OMMENTS</strong></font></td>
+ </tr>
+ <tr>
+ <td><font size="5" face="Arial">6</font></td>
+ <td align="right" bgcolor="#B1D8D8"><font size="2"
+ face="Arial"><strong>Comments</strong></font></td>
+ <td bgcolor="#008080"><font size="2" face="Arial"><strong><textarea
+ name="order_comments" rows="2" cols="20"></textarea></strong></font></td>
+ </tr>
+ </table>
+ <p><input type="submit" name="B1" value="Submit"></p>
+</form>
+</body>
+</html>

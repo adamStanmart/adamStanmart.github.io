@@ -1,0 +1,360 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Greg Ewing">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (WinNT; I) [Netscape]">
+   <meta name="keywords"
+   content="monart,stanmart,film,advertising,production,television,set,equipment hire,makeup,wardrobe,set
+decoration,special effects,ice effects,smoke effects,cobwebber,ice,smoke,tungsten wire,dust,bentonite dust,digital paints,adhesives,sprays,aerosolve,k-line,scotch,tapes,Nashua,Tesa,Nitto,Tapex,Vibac,Stylus,SFX,Special Effects">
+   <title>Stanmart Film Services - Shopping Basket [Hire]</title>
+   <link rel=stylesheet href=stanmart1.css type=text/css>
+</head>
+<script LANGUAGE="JavaScript">
+  var mapWin;
+  var browser=false;
+  if((navigator.appName=="Netscape")&&(parseInt(navigator.appVersion)>=3))
+    browser=true;
+  else if((navigator.appName=="Microsoft Internet Explorer")&&(parseInt(navigator.appVersion)>=3))
+    browser=true;
+
+  if (browser) {
+    var object=new Array();
+
+    object['profile']= new objectdata(89,35,"../images/gprofile.gif","../images/profile.gif","Company Profile");
+    object['sales']= new objectdata(89,35,"../images/gsales.gif","../images/sales.gif","Product Sales");
+    object['gallery']= new objectdata(89,35,"../images/gsgallery.gif","../images/gallery.gif","Product Gallery");
+    object['home']= new objectdata(89,35,"../images/gshome.gif","../images/home.gif","Home Page");
+    object['mon']= new objectdata(89,35,"../images/gmonbutton.gif","../images/monbutton.gif","Monart Home Page");
+    object['current']= new objectdata(89,35,"../images/ghire.gif","../images/hire.gif", "Current Page");
+
+    // add more objects above this line
+  }
+
+  function objectdata(hsize,vsize,replaceimg,restoreimg,mess) {
+    if(browser) {                
+      this.mess=mess;
+      this.simg=new Image(hsize,vsize);
+      this.simg.src=replaceimg;
+      this.rimg=new Image(hsize,vsize);
+      this.rimg.src=restoreimg;                                                                                        
+    }
+  }
+
+  function replaceOrig(name) {
+    if(browser) {
+      window.status=object[name].mess;
+      document[name].src=object[name].simg.src;
+      document['current'].src=object['current'].rimg.src;
+    }
+  } 
+
+  function restoreOrig(name) {
+    if(browser) {
+      window.status="";
+      document[name].src=object[name].rimg.src;
+      document['current'].src=object['current'].simg.src;
+    }
+  } 
+
+  function openWindow(theURL,winName) {
+    closeWin();
+    mapWin = window.open(theURL,winName, "toolbar=no,status=no,location=no,menubar=no,scrollbars=yes,resizable=yes,height=350,width=350");
+  }
+
+  function closeWin() {
+    if (mapWin) {
+      mapWin.close();
+    }
+  }
+
+
+</script>
+
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" onUnload="closeWindow()">
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=10 ALIGN=LEFT>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td WIDTH="105"><img SRC="../images/stanlogo_small.gif" height=105 width=105 align=CENTER>
+</td>
+<td ALIGN=CENTER>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=CENTER>
+<tr>
+<th class=h1>STANMART&nbsp;FILM&nbsp;SERVICES
+</th>
+</tr>
+<tr>
+<th class=h2>
+Product And Equipment Hire
+</th>
+</tr>
+</table>
+</td>
+</tr>
+
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+
+<td VALIGN=TOP WIDTH="105">
+<table BORDER=0 CELLSPACING=0 WIDTH="105">
+
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="profile.html" OnMouseOver="replaceOrig('profile');return true;" OnMouseOut="restoreOrig('profile');"><img SRC="../images/profile.gif" NAME="profile" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></a></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="sales.html" OnMouseOver="replaceOrig('sales');return true;" OnMouseOut="restoreOrig('sales');"><img SRC="../images/sales.gif" NAME="sales" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></a></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><img SRC="../images/ghire.gif" NAME="current" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="stangallery.html" OnMouseOver="replaceOrig('gallery');return true;" OnMouseOut="restoreOrig('gallery');"><img SRC="../images/gallery.gif" NAME="gallery" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></a></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="stanmart.html" OnMouseOver="replaceOrig('home');return true;" OnMouseOut="restoreOrig('home');"><img SRC="../images/home.gif" NAME="home" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></a></td>
+</tr>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td><a href="martino.html" OnMouseOver="replaceOrig('mon');return true;" OnMouseOut="restoreOrig('mon');"><img SRC="../images/monbutton.gif" NAME="mon" BORDER=0 NATURALSIZEFLAG="0" height=35 width=89 align=BOTTOM></a></td>
+</tr>
+</table>
+</td>
+
+
+<td>
+<table BORDER=0 CELLSPACING=0 CELLPADDING=5>
+  <tr class=solid ALIGN=CENTER VALIGN=CENTER>
+<td>
+<table BORDER=0 CELLSPACING=3 CELLPADDING=2>
+  <tr class=solid ALIGN="LEFT" VALIGN="CENTER">
+    <td>
+      The following items can be hired via phone <b>+612 9552 3330</b>, fax <b>+612 9692 8717</b>,<br>or simply send an&nbsp;<a href="mailto:stanmart@monart.com.au?subject=Website Hire Query&cc=gewing@aconex.com"><font color="#0099FF"><u>email</u></font></a> detailing your requirements.<p>
+      <table BORDER=0 CELLSPACING=2 CELLPADDING=2 ALIGN="CENTER">
+        <tr class=solid ALIGN="LEFT" VALIGN="CENTER">
+          <td>
+            <OL STYLE="list-style: url(images/bullet7.gif) square">
+              <LI><a href="#aircraft"><font color="#0099FF">&nbsp;&nbsp;AIRCRAFT</font></a></LI>
+              <LI><a href="#appliances"><font color="#0099FF">&nbsp;&nbsp;APPLIANCES</font></a></LI>
+              <LI><a href="#chairs"><font color="#0099FF">&nbsp;&nbsp;CHAIRS AND TABLES</font></a></LI>
+              <LI><a href="#digital"><font color="#0099FF">&nbsp;&nbsp;DIGITAL SCREENS</font></a></LI>
+              <LI><a href="#location"><font color="#0099FF">&nbsp;&nbsp;LOCATION</font></a></LI>
+              <LI><a href="#other"><font color="#0099FF">&nbsp;&nbsp;OTHER</font></a></LI>
+              <LI><a href="#makeup"><font color="#0099FF">&nbsp;&nbsp;MAKEUP/WARDROBE</font></a></LI>
+            </OL>
+          </td>
+          <td>
+            <OL STYLE="list-style: url(images/bullet7.gif)  square">
+              <LI><a href="#neons"><font color="#0099FF">&nbsp;&nbsp;NEONS</font></a></LI>
+              <LI><a href="#effects"><font color="#0099FF">&nbsp;&nbsp;SPECIAL EFFECTS</font></a></LI>
+              <LI><a href="#turntables"><font color="#0099FF">&nbsp;&nbsp;TURNTABLES</font></a></LI>
+              <LI><a href="#usa"><font color="#0099FF">&nbsp;&nbsp;US STREET FURNITURE</font></a></LI>
+              <LI><a href="#wind"><font color="#0099FF">&nbsp;&nbsp;WIND EFFECTS</font></a></LI>
+              <LI><a href="#workshop"><font color="#0099FF">&nbsp;&nbsp;WORKSHOP</font></a></LI>
+            </OL>
+          </td>
+       </tr>
+     </table>
+    </td>
+  </tr>
+  <tr class=solid ALIGN="LEFT" VALIGN="CENTER">
+    <td>
+      Please include the item type, quantity, hire date and hire length (in days or weeks where<br>applicable). For fax and email orders, please also include a contact phone number.
+    </td>
+  </tr>
+  <tr class=solid ALIGN="LEFT" VALIGN="CENTER">
+    <td>
+      Depending on the item type, and availability, the hire may be negotiated on a daily basis<br>or a weekly basis.
+    </td>
+  </tr>
+</table>
+</td>
+</tr>
+<tr class=solid ALIGN=CENTER VALIGN=CENTER>
+<td>
+
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="location">LOCATION</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">BARRICADE & SUPPORTS</a></td><td>N.A.</td><td>$10.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">BARRICADE MESH</td><td>N.A.</td><td>$10.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">FILM CREW AHEAD/ FLAGMAN ETC</a></td><td>N.A.</td><td>$10.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">FLASHING LIGHTS</a></td><td>N.A.</td><td>$7.50</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">SAFETY VESTS</a></td><td>N.A.</td><td>$3.50</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">STOP GO SIGNS</a></td><td>N.A.</td><td>$10.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/traffic.jpg','Traffic')">WITCHES HATS</a></td><td>N.A.</td><td>$3.00</td></tr>
+ </table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="makeup">MAKE UP/WARDROBE</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/cheval.jpg','Cheval')">CHEVAL MIRRORS</a></td><td>$30.00</td><td>$90.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/cheval.jpg','Rack')">CLOTHING RACKS</a></td><td>$22.00</td><td>$66.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">CUTTING TABLES</td><td>N.A.</td><td>$40.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">IRONING BOARDS</td><td>N.A.</td><td>$7.50</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/mum+chair.jpg','Mum')">MAKE UP MIRRORS</a></td><td>$30.00</td><td>$90.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="appliances">APPLIANCES</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">ELECTRIC URNS 20litre</td><td>$20.00</td><td>$60.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">ELECTRIC URNS 10litre</td><td>$15.00</td><td>$45.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GAS BOTTLES</td><td>N.A.</td><td>$30.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GAS URNS</td><td>$30.00</td><td>$90.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="chairs">CHAIRS AND TABLES</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/chairs.jpg','Chairs1')">CARRIBEE FOLDING CHAIR</a></td><td>N.A.</td><td>$5.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/chairs.jpg','Chairs2')">DIRECTORS CHAIR</a></td><td>N.A.</td><td>$7.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">KD CANOPIES</td><td>$110.00</td><td>$330.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">STACKER CHAIR</td><td>N.A.</td><td>$3.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">TRESTLE TABLE</td><td>N.A.</td><td>$10.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="effects">SPECIAL EFFECTS</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">BEE SMOKER</td><td>$5.00</td><td>$30.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">C-STANDS</td><td>$15.00</td><td>$45.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">COBWEBBER + 900ml COBWEB FLUID</td><td>$60.00</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">FLAME BAR 30MM + HOSE</td><td>$30.00</td><td>$90.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">FLAME BAR 60MM + HOSE</td><td>$40.00</td><td>$120.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">FLAME BAR 90MM + HOSE</td><td>$60.00</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">FLAME RING</td><td>$25.00</td><td>$75.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">HEAT HAZE GUN</td><td>$45.00</td><td>$135.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GAS BOTTLE</td><td>N.A.</td><td>$30.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/minibigsmoke.jpg','Karcher')">MINI BIG SMOKE</a></td><td>$80.00</td><td>$240.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/Karcher.jpg','Karcher')">KARCHER STEAMER</a></td><td>$80.00</td><td>$240.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/ZR20.jpg','ZR20')">FOG MACHINE - ZR20</a></td><td>$90.00</td><td>$270.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">LITTLE BLIZZARD SNOW MAKER</td><td>$100.00</td><td>$300.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="wind">WIND EFFECTS</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">STUDIO FAN + STAND</td><td>$65.00</td><td>$195.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/wind3.jpg','wind3')">800MM ELECTRIC FAN</a></td><td>$200.00</td><td>$P.O.A</td></tr>
+<tr align="RIGHT"><td align="LEFT">1100MM ELECTRIC FAN</td><td>$200.00</td><td>$P.O.A</td></tr>
+<tr align="RIGHT"><td align="LEFT">LARGE PETROL POWERED FAN</td><td>$400.00</td><td>$P.O.A</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="workshop">WORKSHOP</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">A-FRAMES</td><td>N.A.</td><td>$5.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">CHAIN BLOCKS (1 TON)</td><td>$P.O.A.</td><td>$P.O.A.</td></tr>
+<tr align="RIGHT"><td align="LEFT">STOCK FLATS - PAINTED AND DELIVERED</td><td>N.A.</td><td>$220.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">STOCK FLATS - UNPAINTED AND DELIVERED</td><td>N.A.</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GAS HEATER INCLUDE. GAS CYL.</td><td>$60.00</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">SHOT BAGS</td><td>N.A.</td><td>$3.50</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="digital">DIGITAL SCREENS</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL BLUE 20 x 20 WITH FRAME</td><td>$200.00</td><td>$600.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL BLUE 10 x 10 WITH FRAME</td><td>$125.00</td><td>$350.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL BLUE 8 x 8 WITH FRAME</td><td>$100.00</td><td>$300.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL GREEN 20 x 20 WITH FRAME</td><td>$200.00</td><td>$600.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL GREEN 12 x 12 WITH FRAME</td><td>$125.00</td><td>$350.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">DIGITAL GREEN 30 x 60 WITH FRAME</td><td>$750.00</td><td>$P.O.A.</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="turntables">TURNTABLES</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">600mm BEARING RACE</td><td>$35.00</td><td>$100.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/turntables/500ttable.jpg','500')">500mm SLIP RING CENTRE POWER</a></td><td>$75.00</td><td>$225.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">AS ABOVE WITH LIGHTBOX</td><td>$200.00</td><td>$600.00</td></tr>	
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/turntables/300ttable.jpg','300')">300mm BELT DRIVE WITH POWER</a></td><td>$50.00</td><td>$150.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/turntables/800ttable.jpg','800')">800mm BELT DRIVE</a></td><td>$100.00</td><td>$300.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">CAR TURNTABLE (MOTION CONTROL COMPATIBLE)</td><td>$P.O.A.</td><td>$P.O.A.</td></tr>
+</table>
+<p>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="usa">US STREET FURNITURE</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/streetlightsgreen.jpg','Lights')">STREET LIGHTS - ORNATE</a></td><td>$100.00</td><td>$300.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/parkbench.jpg','Bench')">PARK BENCH</a></td><td>$25.00</td><td>$75.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/redhydrant.jpg','Hydrant')">FIRE HYDRANT</a></td><td>$45.00</td><td>$135.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/uspost.jpg','PostBox')">POST BOX</a></td><td>$60.00</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/usatoday.jpg','USAToday')">USA TODAY DISPENSER</a></td><td>$60.00</td><td>$180.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/nytimes.jpg','NYTimes')">MOCK-UP NY TIMES DISPENSER</a></td><td>$45.00</td><td>$135.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/meshbins.jpg','MeshBins')">MESH BINS</a></td><td>$25.00</td><td>$75.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/streetprops/lgegalv.jpg','Galv')">GALV. BINS LARGE</a></td><td>$10.00</td><td>$30.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GALV. BINS MED/SMALL</td><td>$5.00</td><td>$15.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">PAYPHONE</td><td>$45.00</td><td>$135.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="neons">NEONS</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/mixed.jpg','Mixed')">MIXED NEON</a></td><td>N.A.</td><td>$200.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/cafe.jpg','Cafe')">CAFÉ - WHITE</a></td><td>N.A.</td><td>$100.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">AIR CONDITIONED - WHITE</td><td>N.A.</td><td>$150.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/cold.jpg','Cold')">COLD BEER</a></td><td>N.A.</td><td>$150.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">TOOHEYS</td><td>N.A.</td><td>$200.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">COORS BEER - MOUNTAIN</td><td>N.A.</td><td>$150.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/Bar.jpg','Bar')">BAR</a></td><td>N.A.</td><td>$200.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/heineken.jpg','Heineken')">HEINEKEN</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/miller.jpg','Miller')">MILLER</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/coors.jpg','Coors')">COORS</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/closed.jpg','Closed')">CLOSED</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/Pizzeria.jpg','Pizza')">PIZZARIA</a></td><td>N.A.</td><td>$75.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/Restaurant.jpg','Neons')">RESTAURANT</a></td><td>N.A.</td><td>$75.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/open.jpg','Open')">OPEN</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/zigzag1.jpg','Zig1')">ZIG-ZAG TYPE 1</a></td><td>N.A.</td><td>$50.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/zigzag2.jpg','Zig2')">ZIG-ZAG TYPE 2</a></td><td>N.A.</td><td>$51.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/neons/zigzag3.jpg','Zig3')">ZIG-ZAG TYPE 3</a></td><td>N.A.</td><td>$52.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="aircraft">AIRCRAFT</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/aircraftweb.jpg','Air1')">INTERNAL AIRCRAFT PANELS</a></td><td>$100.00</td><td>$300.00</td></tr>
+<tr align="RIGHT"><td align="LEFT"><a class=fancy href="#" onClick="openWindow('images/hire/misc/aircraftweb.jpg','Air2')">AIRCRAFT SEATS (PAIR)</a></td><td>$100.00</td><td>$300.00</td></tr>
+</table>
+<p>
+<table BORDER=1 CELLSPACING=1 CELLPADDING=2 WIDTH="100%">
+<tr><th class=solid2 colspan="3"><a name="other">OTHER</a></th></tr>
+<tr align="CENTER"><th class=solid2 WIDTH=40%>&nbsp;Hire Item&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Day[AUD]&nbsp;</th><th class=solid2 WIDTH=30%>&nbsp;Per Week[AUD]&nbsp;</th></tr>
+<tr align="RIGHT"><td align="LEFT">STAR PICKETS</td><td>$2.50</td><td>$7.50</td></tr>
+<tr align="RIGHT"><td align="LEFT">STAR PICKET HAMMER</td><td>N.A.</td><td>$15.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">STAR PICKET PULLER</td><td>N.A.</td><td>$15.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">TARPS</td><td>N.A.</td><td>$10.00 - $20.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">GROUNDSHEETS</td><td>N.A.</td><td>$5.00 - $20.00</td></tr>
+<tr align="RIGHT"><td align="LEFT">VARIOUS LIGHTS (call for more information)</td><td>$P.O.A.</td><td>$P.O.A.</td></tr>	
+</table>
+<p>
+		
+</td>
+ </tr>
+
+</table>
+</td>
+
+<tr ALIGN=CENTER VALIGN=CENTER>
+<td WIDTH="105">&nbsp;</td>
+<td>
+<H4>
+ <a class=fancy href="profile.html">profile</a>
+| <a class=fancy href="sales.html">sales</a> 
+| <a class=fancy href="stanGallery.html">gallery</a>
+| <a class=fancy href="stanmart.html">home</a>
+</h4>
+</td>
+</tr>
+
+</table>
+</center>
+</body>
+</html>
+
+

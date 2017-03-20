@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title></title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><font size="6">Secure Order Form for VS181590</font></p>
+
+<p align="left"><font size="3">SSL stands for Secure Sockets
+Layer. With SSL enabled on your Web Site, visitors will be able
+to view and send information over the Internet in an encrypted
+form. The user will see a Lock appearing on their Web Site.</font></p>
+
+<p align="left"><font size="3"></font>&nbsp;</p>
+
+<p align="left"><font size="5">S</font><font size="4">TEP 1 - </font><font
+size="5">E</font><font size="4">NABLE </font><font size="5">SSL</font><font
+size="4"> </font><font size="5">O</font><font size="4">N </font><font
+size="5">Y</font><font size="4">OUR </font><font size="5">W</font><font
+size="4">EB </font><font size="5">S</font><font size="4">ITE<br>
+</font><font size="3">the first step is to enable SSL on your Web
+Site. to do this you should:</font></p>
+
+<ul>
+    <li><p align="left"><font size="3">Open the Mission Control
+        Web Page (enter your Username and password)</font></p>
+    </li>
+    <li><p align="left"><font size="3">Click on the <strong>Server
+        Setup</strong> button under Web Server</font></p>
+    </li>
+    <li><p align="left"><font size="3">Go to <strong>SSL Status</strong>
+	and select <strong>Install SSL</strong></font></p>
+    </li>
+    <li><p align="left"><font size="3">the Screen will then say
+        &quot;<strong>SSL Pending Install</strong>&quot;</font></p>
+    </li>
+    <li><p align="left"><font size="3">We will then
+        configure SSL for you Web Site. This normally occurs with
+        the next business day.</font></p>
+    </li>
+</ul>
+
+<p align="left"><font size="3"></font>&nbsp;</p>
+
+<p align="left"><font size="5">S</font><font size="4">TEP 2 - </font><font
+size="5">C</font><font size="4">REATE </font><font size="5">A</font><font
+size="4"> </font><font size="5">S</font><font size="4">ECURE </font><font
+size="5">O</font><font size="4">RDER </font><font size="5">F</font><font
+size="4">ORM</font></p>
+
+<p align="left"><font size="3">A simple demonstration order web
+page has been created for you. The file is called <strong>demo_order.htm</strong>
+and is located in the <strong>SSL</strong> directory of your Web
+Site.</font></p>
+
+<p align="left"><font size="3">To access this HTML page via SSL
+Security, you should ensure that SSL has been enabled. To enable
+SSL on your Web Site. </font></p>
+
+<p align="left"><font size="3">The Mission Control Panel will
+also list the Server Name which should be used to access your SSL
+Order.</font></p>
+
+<p align="left"><font size="3">the URL will be in the following
+format:</font></p>
+
+<blockquote>
+    <p align="left"><font size="3"><strong>https://wic012u.server-secure.com/</strong><em><strong>VS181590_</strong></em><strong>secure/demo_order.htm</strong></font></p>
+</blockquote>
+
+<p align="left"><font size="3">If you want to access this page
+without SSL security use:-</font></p>
+
+<blockquote>
+    <p align="left"><font size="3"><strong>http://wic012u.server-web.com/VS181590_secure/demo_order.htm<br>
+    </strong>OR<strong><br>
+    http://www.</strong><em><strong>yourdomain</strong></em><strong>.com.au/ssl/demo_order.htm</strong></font></p>
+</blockquote>
+
+<p align="left"><font size="6">Notes</font></p>
+
+<blockquote>
+    <p align="left"><font size="4"><strong>Do not use
+    demo_order.htm or readme.htm<br>
+    </strong></font><font size="3">Please do not use the
+    demo_order.htm or the readme.htm files as any changes you
+    make to them may be deleted when we change the order system
+    and build new demo html files for you.</font></p>
+    <p align="left"><font size="4"><strong>demo_order.htm<br>
+    </strong></font><font size="3">Before you use the <strong>demo_order.htm</strong>
+    order form you must edit the line in the file which refers to
+    your VS number.</font> Replace the vs_number_goes_here with
+    your vs number eg: <b>VS181590</b></p>
+    <p><font size="2" face="Courier">&lt;input
+    type=&quot;hidden&quot; name=&quot;vs&quot;
+    value=&quot;vs_number_goes_here&quot;&gt;</font></p>
+    <p>With out this lines your orders will disappear into the
+    vapour.</p>
+    <p>The other hidden field is called redirect. It contains the
+    URL the user is returned to once the order has been accepted
+    and a receipt number has been issued.</p>
+    <p align="left"><font size="4"><strong>Viewing the Orders<br>
+    </strong></font><font size="3">To view the orders which have
+    been placed using these forms, open the Mission Control Panel
+    and click the Form Results button under Easy Form.</font></p>
+    <p align="left"><font size="4"><strong>HTTP/1.0 404 Object
+    Not Found</strong><br>
+    </font><font size="3">If your browser generates an error
+    message &quot;<strong>HTTP/1.0 404 Object Not Found</strong>&quot;
+    when trying to access the <strong>SSL URL</strong> above then
+    SSL has not been enabled on your Web Site (By default it is
+    not enabled). Please edit the SSL option in the Mission
+    Control Panel.</font></p>
+    <p align="left"><font size="4"><strong>More Details<br>
+    </strong></font><font size="3">For more information on the
+    Secure Order System, please refer to the <b>Simple SSL Order
+    Form</b> information located at </font></p>
+</blockquote>
+</body>
+</html>

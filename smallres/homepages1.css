@@ -1,0 +1,6 @@
+body {font-family: 'comic sans ms',arial,helvetica,sans-serif; font-size: 10pt;  background: url(../images/Galaxy1.gif);}
+
+/* links */
+a:link, a:active, a:visited {font-family: comic sans ms,arial,helvetica,sans-serif; color: #0099FF; text-decoration: none;}
+
+H4 {font-family: comic sans ms,arial,helvetica,sans-serif; font-size: 16pt; color: #0099FF;}

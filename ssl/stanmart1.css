@@ -1,0 +1,25 @@
+/* body {font-family: times,serif; font-size: 10pt; background: #000000; background: url(http://www.monart.com.au/images/Galaxy1.gif);} */
+body {font-family: times,serif; font-size: 10pt; background: #000000;}
+a:link, a:active, a:visited {color: #FFFFFF;} 
+a.fancy:link, a.fancy:active, a.fancy:visited {color: #0099FF; text-decoration: none;}
+
+tr {font-family: arial,helvetica,sans-serif; color: #FFFFFF; font-size: 10pt;}
+td {font-family: arial,helvetica,sans-serif; color: #FFFFFF; font-size: 9pt;}
+th {font-family: arial,helvetica,sans-serif; color: #FFFFFF; background: #000099; font-size: 12pt; font-weight: bold}
+
+tr.solid {background: #000000;}
+
+/* Top title ('STANMART FILM ...') */
+th.h1 {font: 900 24pt sans-serif; color: "#0705FE"; background: #000000;}
+/* Second title ('Company Profile') */
+th.h2 {font-family: times,serif; font-size: 18pt; color: #FFFFFF; background: #000000;}
+/* Headers on profile page */
+th.solid {font-family: arial,helvetica,sans-serif; color: #FFFFFF; background: #000099; font-size: 10pt;}
+
+H1 {font: 900 24pt sans-serif; color: #0705FE; margin-top: 0.0cm; margin-bottom: 0.0cm; padding-top: 0.0cm; padding-bottom: 0.0cm;}
+H2 {font-family: times,serif; font-size: 18pt; color: #FFFFFF; margin-top: 0.0cm; margin-bottom: 0.0cm; padding-top: 0.0cm; padding-bottom: 0.0cm;}
+H3 {font-family: arial,helvetica,sans-serif; font-size: 12pt; color: #FFFFFF; background: #000099;}
+H4 {font-family: comic sans ms,arial,helvetica,sans-serif; font-size: 12pt; color: #0099FF;}
+H5 {font-family: arial,helvetica,sans-serif; font-size: 12pt; color: #FFFFFF;}
+H6 {font-family: arial,helvetica,sans-serif; font-size: 10pt; color: #000099; background: #FFFFFF;}
+

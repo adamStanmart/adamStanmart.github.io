@@ -1,0 +1,20 @@
+#nav a
+{
+	display: inline;
+}
+
+#info
+{
+	float: left;
+}
+
+#breadcrumbs
+{
+	display: block;
+	float: none;
+}
+
+#lastUpdate
+{
+	display: none;
+}
